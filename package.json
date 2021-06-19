@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "NAMinfoAssessment",
+  "main": "index.js",
+  "scripts": {
+    "e2e_UI": "cypress open",
+    "e2e_Chrome": "cypress run --browser chrome"
+  },
+  "author": "Avadhoot Nanadikar",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.8.3",
+    "cypress-xpath": "^1.6.2"
+  }
+}

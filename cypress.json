@@ -1,0 +1,14 @@
+{
+    "env":{
+
+        "url":"https://cc.healthrecoverysolutions.com/login/"
+
+    },
+
+    "include": ["./node_modules/cypress", "cypress/**/*.js"],
+    "numTestsKeptInMemory": 0
+
+
+
+
+}
