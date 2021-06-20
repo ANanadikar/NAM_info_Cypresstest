@@ -1,13 +1,21 @@
 {
-    "env":{
-
-        "url":"https://cc.healthrecoverysolutions.com/login/"
-
+    "env": {
+        "url": "https://cc.healthrecoverysolutions.com/login/"
     },
-
-    "include": ["./node_modules/cypress", "cypress/**/*.js"],
+    "defaultCommandTimeout": 10000,
+    "execTimeout": 60000,
+    "pageLoadTimeout": 80000,
+    "requestTimeout": 5000,
+    "responseTimeout": 30000,
+    "taskTimeout": 60000,
+    "include": [
+        "./node_modules/cypress",
+        "cypress/**/*.js"
+    ],
     "numTestsKeptInMemory": 0,
-    "videoCompression": true,
+    "video": true,
+    "videoCompression": 32,
+    "videoUploadOnPasses": true,
     "reporter": "mochawesome",
     "reporterOptions": {
         "charts": true,
@@ -15,12 +23,6 @@
         "json": true,
         "reportDir": "cypress/reports",
         "reportFilename": "report",
-        "overwrite": true 
-      }
-      
-   
-
-
-
-
+        "overwrite": true
+    }
 }
