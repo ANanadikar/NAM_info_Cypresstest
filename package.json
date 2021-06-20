@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "e2e_UI": "cypress open",
-    "e2e_Chrome": "cypress run --browser chrome"
+    "e2e_Chrome": "cypress run --browser chrome --reporter mochawesome"
   },
   "author": "Avadhoot Nanadikar",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^3.8.3",
     "cypress-mochawesome-reporter": "^2.2.0",
-    "cypress-xpath": "^1.6.2"
+    "cypress-xpath": "^1.6.2",
+    "mocha": "^5.2.0",
+    "mochawesome": "^6.2.2"
   }
 }
