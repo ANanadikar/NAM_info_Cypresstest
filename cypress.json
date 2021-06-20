@@ -6,7 +6,9 @@
     },
 
     "include": ["./node_modules/cypress", "cypress/**/*.js"],
-    "numTestsKeptInMemory": 0
+    "numTestsKeptInMemory": 0,
+    "videoCompression": false
+   
 
 
 
