@@ -7,7 +7,7 @@
 
     "include": ["./node_modules/cypress", "cypress/**/*.js"],
     "numTestsKeptInMemory": 0,
-    "videoCompression": false,
+    "videoCompression": true,
     "reporter": "mochawesome",
     "reporterOptions": {
         "charts": true,
